@@ -1,0 +1,57 @@
+header {
+	position: fixed;
+	top: 0;
+	width: 100%;
+	z-index: 1;
+	height: 8vw;
+}
+
+.logo {
+	width: 7vw;
+	padding: 1vw;
+}
+
+nav ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	background-color: skyblue;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+nav ul li {
+	display: flex;
+	float: left;
+}
+
+nav ul li a {
+	display: block;
+}
+
+.buy_button {
+	background-color: gold;
+}
+nav ul li a:hover {
+	background-color: deepskyblue;
+}
+
+nav ul li.dropdown {
+	display: inline-block;
+	width: 10vw;
+}
+
+.dropdown-content {
+	display: none;
+	position: absolute;
+	background-color: lightskyblue;
+}
+
+.dropdown:hover .dropdown-content {
+	display: block;
+	width: 10vw;
+	height: 20vw;
+	overflow-y: scroll;
+}

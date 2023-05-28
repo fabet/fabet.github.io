@@ -1,0 +1,46 @@
+footer {
+	background-color: skyblue;
+	padding: 2vw;
+}
+
+.footer-content {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.footer-section {
+	width: 30%;
+	margin-bottom: 2vw;
+	font-size: 1.2vw;
+	margin-bottom: 2vw;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+}
+
+.footer-bottom {
+	margin-top: 2vw;
+	font-size: 1.2vw;
+	font-family: Montserrat, sans-serif;
+	color: gray;
+	text-align: center;
+}
+
+.social-link {
+	width: 3vw;
+	height: 3vw;
+}
+
+.footer-section ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+	display: flex;
+	align-items: center;
+	justify-content: space-between;
+}
+
+#titan {
+	color: gold;
+}

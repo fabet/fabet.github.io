@@ -1,0 +1,146 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Zeus Gym</title>
+	<link rel="stylesheet" href="../styles/styles.css">
+	<link rel="stylesheet" href="../styles/header.css">
+	<link rel="stylesheet" href="../styles/slideshow.css">
+	<link rel="stylesheet" href="../styles/footer.css">
+</head>
+
+<body>
+<header>
+	<nav>
+		<ul>
+			<li><img src="../images/logo.png" class="logo" alt="logo"></li>
+			<li><a class="activeTitle title" href="#">Main</a></li>
+			<li class="dropdown">
+				<a class="title" href="#">Clubs</a>
+				<div class="dropdown-content">
+					<a class="title" href="#">Club 1</a>
+					<a class="title" href="#">Club 2</a>
+					<a class="title" href="#">Club 3</a>
+					<a class="title" href="#">Club 4</a>
+					<a class="title" href="#">Club 5</a>
+					<a class="title" href="#">Club 6</a>
+					<a class="title" href="#">Club 7</a>
+					<a class="title" href="#">Club 8</a>
+				</div>
+			</li>
+			<li><a class="title" href="#">Tariff</a></li>
+			<li><a class="title" href="#">What do we have</a></li>
+			<li><a class="title" href="#">FAQ</a></li>
+			<li><a class="title buy_button" href="#">Buy a subscription</a></li>
+			<li><a class="title" href="#">+1 (234) 567-8910</a></li>
+		</ul>
+	</nav>
+</header>
+<div class="slideshow-container">
+	<img src="../images/gym_image1.jpg" alt="image1">
+	<img src="../images/gym_image2.jpg" alt="image2">
+	<img src="../images/gym_image3.jpg" alt="image3">
+	<div class="buttons" style="display: block">
+		<button class="bubble-button title" id="button1">Discount <br> 66%</button>
+		<button class="bubble-button" id="button2">We are waiting for you!</button>
+		<button class="bubble-button" id="button3">In all clubs!</button>
+	</div>
+	<div class="buttons" style="display: none">
+		<button class="bubble-button title" id="button4">Trade-in!</button>
+		<button class="bubble-button" id="button5">Join us with profit!</button>
+		<button class="bubble-button" id="button6">#ZEUSgym</button>
+	</div>
+	<div class="buttons" style="display: none">
+		<button class="bubble-button" id="button8">Up to 75% discount</button>
+		<button class="bubble-button title" id="button7">Promotion for students!</button>
+		<button class="bubble-button" id="button9">Your fitness</button>
+	</div>
+	<div>
+		<a class="title" id="buy_button" href="#">Buy a subscription</a>
+		<a class="title" id="club_button" href="#">Choose a club</a>
+	</div>
+	<div class="slideshow-controls">
+		<button class="prev-button" onclick="changeSlide(-1)">&#10094;</button>
+		<button class="next-button" onclick="changeSlide(1)">&#10095;</button>
+	</div>
+</div>
+<div class="tariff-info">
+	<p class="title" id="tariffs">Our tariffs</p>
+</div>
+<div class="main-container">
+	<div class="main-section">
+		<p class="title">Thunderbolt Membership</p>
+		<ul>
+			<li><a>Access to the gym during off-peak hours only.</a></li>
+			<li><a>Limited access to group fitness classes.</a></li>
+			<li><a>Use of basic gym equipment and facilities.</a></li>
+			<li><a>No access to personal training sessions.</a></li>
+		</ul>
+	</div>
+	<div class="main-section">
+		<p class="title">Lightning Membership</p>
+		<ul>
+			<li><a>Access to the gym during both peak and off-peak hours.</a></li>
+			<li><a>Full access to group fitness classes.</a></li>
+			<li><a>Use of advanced gym equipment and facilities.</a></li>
+			<li><a>Limited access to one personal training session per month.</a></li>
+		</ul>
+	</div>
+	<div class="main-section">
+		<p class="title">Olympus Membership</p>
+		<ul>
+			<li><a>Unlimited access to the gym during both peak and off-peak hours.</a></li>
+			<li><a>Full access to all group fitness classes.</a></li>
+			<li><a>Use of advanced gym equipment and facilities.</a></li>
+			<li><a>Two complimentary personal training sessions per month.</a></li>
+		</ul>
+	</div>
+	<div class="main-section">
+		<p class="title" id="titan">Titan Membership</p>
+		<ul>
+			<li><a>VIP access to the gym, allowing entry at any time.</a></li>
+			<li><a>Priority booking for group fitness classes.</a></li>
+			<li><a>Use of premium gym equipment and facilities.</a></li>
+			<li><a>Four complimentary personal training sessions per month.</a></li>
+			<li><a>Access to exclusive member events and discounts on additional services.</a></li>
+		</ul>
+	</div>
+</div>
+<div class="tariff-info">
+	<p class="title info">More info about our tariffs</p>
+</div>
+<footer>
+	<div class="footer-content">
+		<div class="footer-section">
+			<p class="title">About Us</p>
+			<p>Welcome to ZeusGym, the ultimate destination for fitness enthusiasts!
+				Inspired by the rich heritage of ancient Greece,
+				we bring you a gym experience like no other.
+				At ZeusGym, we combine modern fitness facilities
+				with the timeless wisdom of Greek athleticism.</p>
+		</div>
+		<div class="footer-section">
+			<p class="title">Contact</p>
+			<p>Email: info@zeusgym.com</p>
+			<p>Phone: +1 (234) 567-8910</p>
+		</div>
+		<div class="footer-section">
+			<p class="title">Follow Us</p>
+			<ul>
+				<li><a href="https://www.vk.com/"><img class="social-link" src="../images/vk_logo.png" alt="vk"></a></li>
+				<li><a href="https://web.telegram.org/"><img class="social-link" src="../images/telegram_logo.png" alt="telegram"></a></li>
+				<li><a href="https://www.instagram.com/"><img class="social-link" src="../images/instagram_logo.png" alt="instagram"></a></li>
+				<li><a href="https://www.facebook.com/"><img class="social-link" src="../images/facebook_logo.png" alt="facebook"></a></li>
+			</ul>
+		</div>
+	</div>
+	<div class="footer-bottom">
+		<p>&copy; 2023 ZEUSgym. All rights reserved.</p>
+	</div>
+</footer>
+<script src="../scripts/script.js"></script>
+</body>
+
+</html>

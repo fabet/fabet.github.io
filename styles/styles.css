@@ -1,0 +1,63 @@
+@font-face {
+	font-family: 'AncientGreek';
+	src: url('../fonts/AncientGreek.ttf') format('truetype');
+}
+
+body {
+	margin: 0;
+	padding: 0;
+}
+
+.title {
+	font-family: AncientGreek, Montserrat, sans-serif;
+	font-size: 1.9vw;
+	color: white;
+	text-align: center;
+	-webkit-text-stroke: 0.1vw black;
+	padding: 1vw 1vw;
+	text-decoration: none;
+}
+
+.activeTitle {
+	background-color: deepskyblue;
+}
+
+.main-container {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-section {
+	width: 25%;
+	margin: 1vw;
+	font-size: 1.2vw;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	border: deepskyblue solid 1vw;
+}
+
+.main-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-section li {
+	margin: 1.5vw;
+}
+
+#tariffs {
+	font-size: 3vw;
+	padding-bottom: 0;
+}
+.tariff-info {
+	display: flex;
+	justify-content: center;
+}
+
+.info {
+	width: 40%;
+	background-color: deepskyblue;
+}
+

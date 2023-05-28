@@ -1,0 +1,161 @@
+.slideshow-container {
+	position: relative;
+	width: 100%;
+	height: 0;
+	padding-bottom: 75%;
+	overflow: hidden;
+	margin-top: 10vw;
+}
+
+.slideshow-container img {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 100%;
+	height: 100%;
+	object-fit: cover;
+}
+
+.slideshow-controls {
+	position: absolute;
+	top: 50%;
+	width: 100%;
+	transform: translateY(-50%);
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+}
+
+.slideshow-controls button {
+	background-color: transparent;
+	border: none;
+	color: white;
+	font-size: 15vw;
+	cursor: pointer;
+	outline: none;
+	-webkit-text-stroke: 0.4vw black;
+}
+
+.slideshow-controls .prev-button {
+	margin-right: auto;
+}
+
+.slideshow-controls .next-button {
+	margin-left: auto;
+}
+
+.bubble-button {
+	position: absolute;
+	display: inline-block;
+	border-radius: 50%;
+	border: 0.1vw solid black;
+}
+
+#button1 {
+	top: 20%;
+	left: 15%;
+	height: 17vw;
+	width: 17vw;
+	font-size: 3vw;
+	background-color: deepskyblue;
+}
+
+#button2 {
+	top: 30%;
+	left: 27%;
+	height: 15vw;
+	width: 15vw;
+	background-color: skyblue;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.8vw;
+}
+
+#button3 {
+	top: 41%;
+	left: 18%;
+	height: 13vw;
+	width: 13vw;
+	font-size: 1.7vw;
+	background-color: lightskyblue;
+	font-family: Montserrat, sans-serif;
+}
+
+#button4 {
+	top: 60%;
+	left: 65%;
+	height: 19vw;
+	width: 19vw;
+	font-size: 3vw;
+	background-color: lightskyblue;
+}
+
+#button5 {
+	top: 70%;
+	left: 55%;
+	height: 15vw;
+	width: 15vw;
+	background-color: skyblue;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.8vw;
+}
+
+#button6 {
+	top: 58%;
+	left: 57%;
+	height: 11vw;
+	width: 11vw;
+	font-size: 1.5vw;
+	background-color: deepskyblue;
+	font-family: Montserrat, sans-serif;
+}
+
+#button7 {
+	top: 35%;
+	left: 65%;
+	height: 20vw;
+	width: 20vw;
+	font-size: 3vw;
+	background-color: skyblue;
+}
+
+#button8 {
+	top: 20%;
+	left: 60%;
+	height: 15vw;
+	width: 15vw;
+	background-color: deepskyblue;
+	font-family: Montserrat, sans-serif;
+	font-size: 1.8vw;
+}
+
+#button9 {
+	top: 27%;
+	left: 72%;
+	height: 10vw;
+	width: 10vw;
+	font-size: 1.7vw;
+	background-color: lightskyblue;
+	font-family: Montserrat, sans-serif;
+}
+
+#buy_button {
+	position: absolute;
+	display: inline-block;
+	top: 65%;
+	left: 20%;
+	width: 20vw;
+	font-size: 3vw;
+	background-color: gold;
+	border: 0.1vw solid black;
+}
+
+#club_button {
+	position: absolute;
+	display: inline-block;
+	top: 80%;
+	left: 20%;
+	width: 20vw;
+	font-size: 3vw;
+	background-color: deepskyblue;
+	border: 0.1vw solid black;
+}
