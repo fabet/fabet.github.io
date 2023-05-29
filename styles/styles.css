@@ -1,6 +1,6 @@
 @font-face {
 	font-family: 'AncientGreek';
-	src: url('../fonts/AncientGreek.ttf') format('truetype');
+	src: url('/fonts/AncientGreek.ttf') format('truetype');
 }
 
 body {
