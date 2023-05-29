@@ -36,19 +36,12 @@
 	-webkit-text-stroke: 0.4vw black;
 }
 
-.slideshow-controls .prev-button {
-	margin-right: auto;
-}
-
-.slideshow-controls .next-button {
-	margin-left: auto;
-}
-
 .bubble-button {
 	position: absolute;
 	display: inline-block;
 	border-radius: 50%;
 	border: 0.1vw solid black;
+	color: black;
 }
 
 #button1 {
@@ -58,6 +51,7 @@
 	width: 17vw;
 	font-size: 3vw;
 	background-color: deepskyblue;
+	color: white;
 }
 
 #button2 {
@@ -87,6 +81,7 @@
 	width: 19vw;
 	font-size: 3vw;
 	background-color: lightskyblue;
+	color: white;
 }
 
 #button5 {
@@ -116,6 +111,7 @@
 	width: 20vw;
 	font-size: 3vw;
 	background-color: skyblue;
+	color: white;
 }
 
 #button8 {
