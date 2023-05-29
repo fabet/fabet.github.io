@@ -1,6 +1,7 @@
 let slideIndex = 0;
 let slides = document.querySelectorAll('.slideshow-container img');
 let buttons = document.querySelectorAll('.slideshow-container .buttons');
+let isSlideshowActive = false;
 
 function showSlide(n) {
     if (n < 0) {
@@ -21,6 +22,14 @@ function showSlide(n) {
 function changeSlide(n) {
     slideIndex += n;
     showSlide(slideIndex);
+    isSlideshowActive = true;
 }
 
-setInterval(function() { changeSlide(1); }, 5000);
+function showSlideshow() {
+    if (!isSlideshowActive) {
+        slideIndex++;
+        showSlide(slideIndex);
+    }
+}
+
+setInterval(function() { showSlideshow(); }, 5000);
