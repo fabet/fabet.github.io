@@ -7,7 +7,9 @@
 	<title>Zeus Gym</title>
 	<link rel="stylesheet" href="styles/styles.css">
 	<link rel="stylesheet" href="styles/header.css">
+	<link rel="stylesheet" href="styles/dialog.css">
 	<link rel="stylesheet" href="styles/slideshow.css">
+	<link rel="stylesheet" href="styles/info.css">
 	<link rel="stylesheet" href="styles/footer.css">
 </head>
 
@@ -30,10 +32,10 @@
 					<a class="title" href="#">Club 8</a>
 				</div>
 			</li>
-			<li><a class="title" href="#">Tariff</a></li>
+			<li><a class="title" href="tariffs.html">Tariffs</a></li>
 			<li><a class="title" href="#">What do we have</a></li>
 			<li><a class="title" href="#">FAQ</a></li>
-			<li><a class="title buy_button" href="#">Buy a subscription</a></li>
+			<li><a class="title buy_button">Buy a subscription</a></li>
 			<li><a class="title" href="tel:+12345678910">+1 (234) 567-8910</a></li>
 		</ul>
 	</nav>
@@ -58,7 +60,7 @@
 		<button class="bubble-button" id="button9">Your fitness</button>
 	</div>
 	<div>
-		<a class="title" id="buy_button" href="#">Buy a subscription</a>
+		<a class="title buy_button" id="buy_button" href="#">Buy a subscription</a>
 		<a class="title" id="club_button" href="#">Choose a club</a>
 	</div>
 	<div class="slideshow-controls">
@@ -109,7 +111,7 @@
 	</div>
 </div>
 <div class="tariff-info">
-	<p class="title info">More info about our tariffs</p>
+	<a class="title info" href="tariffs.html">More info about our tariffs</a>
 </div>
 <footer>
 	<div class="footer-content">
@@ -137,10 +139,22 @@
 		</div>
 	</div>
 	<div class="footer-bottom">
-		<p>&copy; 2023 ZEUSgym. All rights reserved.</p>
+		<p>&copy; 2023 ZeusGym. All rights reserved.</p>
 	</div>
 </footer>
-<script src="scripts/script.js"></script>
+<div id="myDialog" class="dialog">
+	<div class="dialog-content">
+		<span class="close">&times;</span>
+		<p class="title" id="dialog-title">Please leave your contact information, and we will definitely get in touch with you.</p>
+		<p>Enter your name:</p>
+		<label for="nameInput"></label><input type="text" id="nameInput" placeholder="Your name">
+		<p>Enter your phone number:</p>
+		<label for="phoneInput"></label><input type="text" id="phoneInput" placeholder="Your phone number">
+		<button class="title" id="saveButton"> Save</button>
+	</div>
+</div>
+<script src="scripts/slideshow.js"></script>
+<script src="scripts/dialog.js"></script>
 </body>
 
 </html>

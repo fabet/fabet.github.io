@@ -1,0 +1,39 @@
+.main-container {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	display: flex;
+	justify-content: space-between;
+}
+
+.main-section {
+	width: 25%;
+	margin: 1vw;
+	font-size: 1.2vw;
+	font-family: Montserrat, sans-serif;
+	text-align: center;
+	border: deepskyblue solid 1vw;
+}
+
+.main-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-section li {
+	margin: 1.5vw;
+}
+
+#tariffs {
+	font-size: 3vw;
+	padding-bottom: 0;
+}
+.tariff-info {
+	display: flex;
+	justify-content: center;
+	margin-bottom: 3vw;
+}
+
+.info {
+	width: 40%;
+	background-color: deepskyblue;
+}
