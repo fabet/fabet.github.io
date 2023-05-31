@@ -33,7 +33,7 @@ iframe {
 	border: deepskyblue solid 1vw;
 }
 
-img {
+.info-section img {
 	width: 3vw;
 	height: 3vw;
 	padding: 1vw;
