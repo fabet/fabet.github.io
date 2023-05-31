@@ -1,0 +1,31 @@
+.faq {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vw;
+}
+
+#faq {
+	font-size: 4vw;
+	margin-bottom: 0;
+}
+
+.faq-question {
+	border-left: deepskyblue solid 1vw;
+	margin: 4vw;
+}
+
+.question {
+	font-size: 3vw;
+	text-align: left;
+	margin-bottom: 1vw;
+}
+
+.answer {
+	font-family: Montserrat, sans-serif;
+	font-size: 2vw;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	padding: 1vw 1vw;
+	margin-top: 0;
+}

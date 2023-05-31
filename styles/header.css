@@ -34,6 +34,7 @@ nav ul li a {
 .buy_button {
 	background-color: gold;
 }
+
 nav ul li a:hover {
 	background-color: deepskyblue;
 }

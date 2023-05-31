@@ -1,0 +1,40 @@
+.name {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vw;
+}
+
+#name {
+	font-size: 4vw;
+	margin: 0;
+}
+
+.info-container {
+	margin: 2vw;
+	padding: 1vw;
+}
+
+.info {
+	font-family: Montserrat, sans-serif;
+	font-size: 1.5vw;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+	padding: 1vw 1vw;
+	margin-top: 0;
+}
+
+.info-section {
+	display: flex;
+	justify-content: space-between;
+}
+
+iframe {
+	border: deepskyblue solid 1vw;
+}
+
+img {
+	width: 3vw;
+	height: 3vw;
+	padding: 1vw;
+}

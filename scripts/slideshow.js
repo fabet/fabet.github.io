@@ -32,4 +32,6 @@ function showSlideshow() {
     }
 }
 
-setInterval(function() { showSlideshow(); }, 5000);
+setInterval(function () {
+    showSlideshow();
+}, 5000);

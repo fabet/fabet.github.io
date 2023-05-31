@@ -4,15 +4,15 @@ let close = document.getElementsByClassName("close")[0];
 let saveButton = document.getElementById("saveButton");
 
 for (let button of buyButtons) {
-    button.onclick = function() {
+    button.onclick = function () {
         dialog.style.display = "block";
     }
 }
 
-close.onclick = function() {
+close.onclick = function () {
     dialog.style.display = "none";
 }
 
-saveButton.onclick = function() {
+saveButton.onclick = function () {
     dialog.style.display = "none";
 }

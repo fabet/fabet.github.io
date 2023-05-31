@@ -25,12 +25,14 @@
 
 #tariffs {
 	font-size: 3vw;
+	margin-bottom: 0;
 	padding-bottom: 0;
 }
+
 .tariff-info {
 	display: flex;
 	justify-content: center;
-	margin-bottom: 3vw;
+	margin: 3vw;
 }
 
 .info {
