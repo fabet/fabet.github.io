@@ -9,7 +9,7 @@
 	<link rel="stylesheet" href="styles/header.css">
 	<link rel="stylesheet" href="styles/dialog.css">
 	<link rel="stylesheet" href="styles/slideshow.css">
-	<link rel="stylesheet" href="styles/info.css">
+	<link rel="stylesheet" href="styles/index-info.css">
 	<link rel="stylesheet" href="styles/footer.css">
 </head>
 
@@ -18,9 +18,9 @@
 	<nav>
 		<ul>
 			<li><img src="images/logo.png" class="logo" alt="logo"></li>
-			<li><a class="activeTitle title" href="#">Main</a></li>
+			<li><a class="activeTitle title" href="index.html">Main</a></li>
 			<li class="dropdown">
-				<a class="title" href="#">Clubs</a>
+				<a class="title">Clubs</a>
 				<div class="dropdown-content">
 					<a class="title" href="#">Club 1</a>
 					<a class="title" href="#">Club 2</a>
@@ -33,8 +33,8 @@
 				</div>
 			</li>
 			<li><a class="title" href="tariffs.html">Tariffs</a></li>
-			<li><a class="title" href="#">What do we have</a></li>
-			<li><a class="title" href="#">FAQ</a></li>
+			<li><a class="title" href="equipment.html">What do we have</a></li>
+			<li><a class="title" href="faq.html">FAQ</a></li>
 			<li><a class="title buy_button">Buy a subscription</a></li>
 			<li><a class="title" href="tel:+12345678910">+1 (234) 567-8910</a></li>
 		</ul>
@@ -132,9 +132,12 @@
 			<p class="title">Follow Us</p>
 			<ul>
 				<li><a href="https://www.vk.com/"><img class="social-link" src="images/vk_logo.png" alt="vk"></a></li>
-				<li><a href="https://web.telegram.org/"><img class="social-link" src="images/telegram_logo.png" alt="telegram"></a></li>
-				<li><a href="https://www.instagram.com/"><img class="social-link" src="images/instagram_logo.png" alt="instagram"></a></li>
-				<li><a href="https://www.facebook.com/"><img class="social-link" src="images/facebook_logo.png" alt="facebook"></a></li>
+				<li><a href="https://web.telegram.org/"><img class="social-link" src="images/telegram_logo.png"
+															 alt="telegram"></a></li>
+				<li><a href="https://www.instagram.com/"><img class="social-link" src="images/instagram_logo.png"
+															  alt="instagram"></a></li>
+				<li><a href="https://www.facebook.com/"><img class="social-link" src="images/facebook_logo.png"
+															 alt="facebook"></a></li>
 			</ul>
 		</div>
 	</div>
@@ -142,10 +145,11 @@
 		<p>&copy; 2023 ZeusGym. All rights reserved.</p>
 	</div>
 </footer>
-<div id="myDialog" class="dialog">
+<div class="dialog">
 	<div class="dialog-content">
 		<span class="close">&times;</span>
-		<p class="title" id="dialog-title">Please leave your contact information, and we will definitely get in touch with you.</p>
+		<p class="title" id="dialog-title">Please leave your contact information, and we will definitely get in touch
+			with you.</p>
 		<p>Enter your name:</p>
 		<label for="nameInput"></label><input type="text" id="nameInput" placeholder="Your name">
 		<p>Enter your phone number:</p>

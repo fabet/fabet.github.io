@@ -1,0 +1,57 @@
+.equipment {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vw;
+}
+
+.equip_title {
+	font-size: 3vw;
+}
+
+#equipment {
+	font-size: 4vw;
+	margin-bottom: 0;
+}
+
+.info {
+	margin: 1vw;
+}
+
+.equipment-category ul {
+	display: flex;
+	justify-content: space-between;
+	list-style-type: none;
+	margin: 2vw;
+	padding: 1vw;
+	overflow: hidden;
+	border: deepskyblue solid 1vw;
+}
+
+.equipment-category ul li {
+	width: 20vw;
+	display: inline-block;
+	margin-right: 20px;
+}
+
+.equipment-name {
+	font-family: AncientGreek, Montserrat, sans-serif;
+	font-size: 2vw;
+	color: white;
+	text-align: left;
+	-webkit-text-stroke: 0.1vw black;
+	text-decoration: none;
+}
+
+.equipment-info {
+	font-family: Montserrat, sans-serif;
+	font-size: 1.2vw;
+	color: black;
+	text-align: left;
+	text-decoration: none;
+}
+
+.info-image {
+	margin: 1vw;
+	width: 15vw;
+	height: 15vw;
+}

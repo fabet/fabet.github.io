@@ -1,0 +1,60 @@
+.tariff-title {
+	margin: 0;
+	font-size: 3vw;
+}
+
+.price-title {
+	margin: 0;
+	font-size: 3vw;
+	color: gold;
+	text-align: right;
+}
+
+.main-container {
+	padding-left: 2vw;
+	padding-right: 2vw;
+	display: block;
+	justify-content: center;
+}
+
+.main-section {
+	width: 90%;
+	margin: 1vw auto;
+	font-size: 1.2vw;
+	font-family: Montserrat, sans-serif;
+	text-align: left;
+	border: deepskyblue solid 1vw;
+}
+
+.main-section ul {
+	list-style-type: none;
+	padding: 0;
+}
+
+.main-section li {
+	margin: 1.5vw;
+}
+
+#tariffs {
+	font-size: 4vw;
+	padding-bottom: 0;
+	margin-bottom: 0;
+}
+
+.tariff-info {
+	display: flex;
+	justify-content: center;
+	margin-top: 10vw;
+}
+
+.info {
+	margin: 1vw;
+}
+
+.info-image {
+	float: left;
+	margin: 1vw;
+	max-width: 4vw;
+	max-height: 4vw;
+}
+

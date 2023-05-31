@@ -1,4 +1,4 @@
-let dialog = document.getElementById("myDialog");
+let dialog = document.getElementsByClassName("dialog")[0];
 let buyButtons = document.getElementsByClassName("buy_button");
 let close = document.getElementsByClassName("close")[0];
 let saveButton = document.getElementById("saveButton");
